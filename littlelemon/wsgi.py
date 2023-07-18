@@ -14,3 +14,6 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'littlelemon.settings')
 
 application = get_wsgi_application()
+
+# because of connecting to vercel
+app = application
