@@ -17,3 +17,4 @@ application = get_wsgi_application()
 
 # because of connecting to vercel
 app = application
+WSGI_APPLICATION = 'vercel_app.wsgi.app'
